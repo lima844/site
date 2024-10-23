@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    height: 13vh;
+}
+.navegation{
+    display: flex;
+    height: 100%;
+}
+.anchor{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    width: 5vw;
+    justify-content: center;
+}
+.anchor:hover{
+    background-color: #f40;
+
+}
+.anchor:hover a{
+    color: white;
+}
+.anchor a{
+    text-decoration: none;
+    color: gray;
+}
+.getQuote{
+    width: 10vw;
+    height: 4vh;
+    background-color: #f40;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.imagem{
+    width: 100vw;
+    height: 60vh;
+
+}
+
+.imagem img{
+    width: 100vw;
+    height: 60vh;
+}
+
+.nome{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    position: absolute;
+}
+.content{
+    color: #f40;
+}
+.content h1{
+    font-size: 4vw;
+    color: white;
+}
+.content h2{
+    margin-left: 10vw;
+    font-size: 2vw
+}
+.tracking-box{
+    width: 35vw;
+    height: 5vh;
+}
+.tracking-box input{
+    margin-left: 3vw;
+    width: 20vw;
+    height: 5vh;
+}
+.tracking-box button{
+    width: 10vw;
+    height: 5.5vh;
+    background-color: #f40;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
